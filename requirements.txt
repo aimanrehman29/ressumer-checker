@@ -3,4 +3,7 @@ google-generativeai
 PyPDF2
 docx2txt
 spacy
-en-core-web-sm
+torch
+transformers
+sentencepiece
+protobuf<4.21.0
