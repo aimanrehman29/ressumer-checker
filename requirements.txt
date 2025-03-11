@@ -2,7 +2,7 @@ streamlit
 google-generativeai
 PyPDF2
 docx2txt
-spacy-model-en_core_web_sm
+spacy
 torch
 transformers
 sentencepiece
