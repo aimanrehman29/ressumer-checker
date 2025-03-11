@@ -4,16 +4,10 @@ import docx2txt
 import spacy
 import streamlit as st
 import spacy
-import subprocess
-import os
 
-# Check if spaCy model is installed, if not, install it
-try:
-    nlp = spacy.load("en_core_web_sm")
-except OSError:
-    subprocess.run(["python", "-m", "spacy", "download", "en_core_web_sm"])
-    nlp = spacy.load("en_core_web_sm")
-    
+nlp = spacy.blank("en")  
+
+
 genai.configure(api_key="AIzaSyDcSBiArvRkffjtK_izwZtxBCdEP31R50k")
 
 def extract_text_from_resume(uploaded_file):
