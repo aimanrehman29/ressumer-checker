@@ -3,6 +3,7 @@ google-generativeai
 PyPDF2
 docx2txt
 spacy
+spacy-model-en_core_web_sm
 torch
 transformers
 sentencepiece
