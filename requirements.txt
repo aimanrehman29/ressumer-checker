@@ -3,7 +3,11 @@ google-generativeai
 PyPDF2
 docx2txt
 spacy
+https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.5.0/en_core_web_sm-3.5.0.tar.gz
 torch
 transformers
 sentencepiece
 protobuf<4.21.0
+markdown-it-py==2.2.0
+pygments==2.15.1
+rich==13.3.5
